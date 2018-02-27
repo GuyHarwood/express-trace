@@ -3,6 +3,7 @@ var path = require('path')
 var morgan = require('morgan')
 var cookieParser = require('cookie-parser')
 var bodyParser = require('body-parser')
+require('njstrace').inject()
 
 var index = require('./routes/indexRoutes')
 var users = require('./routes/userRoutes')
